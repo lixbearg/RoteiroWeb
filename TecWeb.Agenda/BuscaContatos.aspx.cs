@@ -26,7 +26,7 @@ namespace TecWeb.Agenda
         protected void ButtonPesquisar_Click(object sender, EventArgs e)
         {
             ContatoDAO contatoDAO = new ContatoDAO();
-            List<Contato> contatos = contatoDAO.ObterContatos(this.TextNome.Text, this.TextLogradouro.Text, this.TextCidade.Text, this.TextCidade.Text, Convert.ToInt32(this.DropCategorias.SelectedValue));
+            List<Contato> contatos = contatoDAO.ObterContatos(this.TextNome.Text, this.TextLogradouro.Text, this.TextCidade.Text, this.TextEmail.Text, Convert.ToInt32(this.DropCategorias.SelectedValue));
             GridContatos.DataSource = contatos;
             GridContatos.DataBind();
         }

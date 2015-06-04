@@ -8,7 +8,8 @@ namespace TecWeb.Agenda.DAO
 {
     public class CategoriaDAO
     {
-        private static string SQL_SELECIONAR_CATEGORIAS = "SELECT Id, Nome FROM CATEGORIA ORDER BY NOME";
+        private static string SQL_SELECIONAR_CATEGORIAS = "SELECT Id, Nome FROM CATEGORIA ORDER BY ID";
+        private static string SQL_SELECIONAR_CATEGORIAS_ID = "SELECT Id, Nome FROM CATEGORIA WHERE ID = @ID ORDER BY ID";
 
         public IList<Categoria> ObterCategorias()
         {
@@ -43,7 +44,7 @@ namespace TecWeb.Agenda.DAO
             using (IDbConnection connection = Util.ObterConexao())
             {
                 IDbCommand command = connection.CreateCommand();
-                command.CommandText = SQL_SELECIONAR_CATEGORIAS;
+                command.CommandText = SQL_SELECIONAR_CATEGORIAS_ID;
 
                 IDbDataParameter paramID = command.CreateParameter();
 
