@@ -4,7 +4,7 @@ using System.Text;
 using System.Data;
 using TecWeb.Agenda.ObjetoNegocio;
 
-namespace TecWeb.Agenda.DAO
+namespace TecWeb.WS.DAO
 {
     public class ContatoDAO
     {

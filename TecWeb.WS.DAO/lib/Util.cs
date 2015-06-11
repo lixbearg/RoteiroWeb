@@ -1,11 +1,7 @@
-using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Data;
-using System.Data.OleDb;
 using System.Data.SqlClient;
 
-namespace TecWeb.Agenda.DAO
+namespace TecWeb.WS.DAO
 {
     class Util
     {

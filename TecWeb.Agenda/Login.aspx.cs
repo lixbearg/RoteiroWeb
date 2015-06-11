@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Web;
-using TecWeb.Agenda.DAO;
+using TecWeb.WS.DAO;
 using TecWeb.Agenda.ObjetoNegocio;
 
 namespace TecWeb.Agenda

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Web.UI;
-using TecWeb.Agenda.DAO;
 using TecWeb.Agenda.ObjetoNegocio;
 
 namespace TecWeb.Agenda
@@ -17,15 +16,12 @@ namespace TecWeb.Agenda
 
         protected void ButtonCadastrar_Click(object sender, EventArgs e)
         {
+            UsuarioWS.UsuarioWS UsuariosWS = new UsuarioWS.UsuarioWS();
             Page.Validate();
             if (Page.IsValid)
             {
-                UsuarioDAO usuarioDAO = new UsuarioDAO();
-                Usuario usuario = new Usuario();
-                usuario.Nome = TextNome.Text;
-                usuario.NomeUsuario = TextNomeUsuario.Text;
-                usuario.Senha = TextSenha.Text;
-                usuarioDAO.AdicionarUsuario(usuario);
+                Usuario usuario = new Usuario();        
+                UsuariosWS.adicionaUsuario(TextNome.Text, TextNomeUsuario.Text, TextSenha.Text);
                 PanelComponentes.Visible = false;
                 PanelMensagem.Visible = true;
             }

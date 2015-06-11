@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Web.UI.WebControls;
-using TecWeb.Agenda.DAO;
+using TecWeb.WS.DAO;
 using TecWeb.Agenda.ObjetoNegocio;
 
 namespace TecWeb.Agenda

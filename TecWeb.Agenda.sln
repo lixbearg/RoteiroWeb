@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecWeb.Agenda", "TecWeb.Age
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecWeb.Agenda.ObjetoNegocio", "TecWeb.Agenda.ObjetoNegocio\TecWeb.Agenda.ObjetoNegocio.csproj", "{A27AA384-1CD3-466E-8406-327C54180260}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecWeb.Agenda.DAO", "TecWeb.Agenda.DAO\TecWeb.Agenda.DAO.csproj", "{AAE0380D-C432-4EFA-9C8C-A9B12713A57C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecWeb.WS.DAO", "TecWeb.WS.DAO\TecWeb.WS.DAO.csproj", "{361FD20B-2DCF-456E-B276-41BE6A80AEF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{A27AA384-1CD3-466E-8406-327C54180260}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A27AA384-1CD3-466E-8406-327C54180260}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A27AA384-1CD3-466E-8406-327C54180260}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAE0380D-C432-4EFA-9C8C-A9B12713A57C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAE0380D-C432-4EFA-9C8C-A9B12713A57C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAE0380D-C432-4EFA-9C8C-A9B12713A57C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAE0380D-C432-4EFA-9C8C-A9B12713A57C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361FD20B-2DCF-456E-B276-41BE6A80AEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361FD20B-2DCF-456E-B276-41BE6A80AEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361FD20B-2DCF-456E-B276-41BE6A80AEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361FD20B-2DCF-456E-B276-41BE6A80AEF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

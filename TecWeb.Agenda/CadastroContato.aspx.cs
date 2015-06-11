@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using TecWeb.Agenda.DAO;
+using TecWeb.WS.DAO;
 using TecWeb.Agenda.ObjetoNegocio;
 
 namespace TecWeb.Agenda
